@@ -28,13 +28,33 @@ const Index = () => {
     <Layout>
       {/* Hero Section with right-aligned image */}
       <section id="home" className="section min-h-screen flex flex-col md:flex-row-reverse items-center justify-center gap-8 md:gap-16">
-        <div className="w-full md:w-1/2 flex justify-center md:justify-start">
-          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-accent/20 shadow-xl">
-            <img 
-              src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-              alt="Alex Morgan" 
-              className="w-full h-full object-cover"
-            />
+        <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+          <div className="flex flex-col items-center">
+            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-accent/20 shadow-xl">
+              <img 
+                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="Alex Morgan" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="flex space-x-4 mt-4">
+              <a href="https://github.com/alexmorgan" target="_blank" rel="noopener noreferrer" 
+                 className="p-2 rounded-full bg-secondary/50 hover:bg-accent/20 transition-colors">
+                <Github className="w-5 h-5" />
+              </a>
+              <a href="https://linkedin.com/in/alexmorgan" target="_blank" rel="noopener noreferrer"
+                 className="p-2 rounded-full bg-secondary/50 hover:bg-accent/20 transition-colors">
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a href="https://dribbble.com/alexmorgan" target="_blank" rel="noopener noreferrer"
+                 className="p-2 rounded-full bg-secondary/50 hover:bg-accent/20 transition-colors">
+                <Dribbble className="w-5 h-5" />
+              </a>
+              <a href="https://instagram.com/alex.morgan.design" target="_blank" rel="noopener noreferrer"
+                 className="p-2 rounded-full bg-secondary/50 hover:bg-accent/20 transition-colors">
+                <Instagram className="w-5 h-5" />
+              </a>
+            </div>
           </div>
         </div>
         <div className="w-full md:w-1/2 text-center md:text-left fade-in">
