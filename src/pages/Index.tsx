@@ -215,12 +215,16 @@ const Index = () => {
             <p className="mb-6">
               When I’m not coding, you’ll likely find me exploring new tech trends, refining my UI skills, or recharging with a good book and a strong cup of coffee.
             </p>
-            <Button variant="outline" className="flex gap-2">
-              <Download size={16} /> Download Resume
-            </Button>
-          </div>
+            <a href="https://drive.google.com/file/d/1OwC8L9yR2pxIq91XdK0y2EVeziICQp0t/view?usp=sharing">
+              <Button variant="outline" className="flex gap-2">
+                <Download size={16} /> Download Resume
+              </Button>
+            </a>
 
-          <div className="fade-in">
+          </div>
+          {/*
+
+              <div className="fade-in">
             <Card className="overflow-hidden">
               <CardContent className="p-0">
                 <img
@@ -231,6 +235,9 @@ const Index = () => {
               </CardContent>
             </Card>
           </div>
+          
+          */}
+
 
         </div>
       </section>
@@ -245,7 +252,7 @@ const Index = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div className="fade-in">
+          {/**  <div className="fade-in">
             <form className="space-y-4">
               <div>
                 <Label htmlFor="name">Name</Label>
@@ -270,7 +277,8 @@ const Index = () => {
               </div>
               <Button type="submit" className="w-full">Send Message</Button>
             </form>
-          </div>
+          </div>*/}
+
 
           <div className="fade-in">
             <div className="bg-card rounded-lg p-6 shadow-md h-full">
