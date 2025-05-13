@@ -63,7 +63,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <a href="#home" className="text-accent font-bold text-xl md:text-2xl font-heading" onClick={() => scrollToSection('home')}>
-              Alex Morgan
+              Sanika Kulkarni
             </a>
             
             {/* Desktop navigation */}
@@ -126,8 +126,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
       <footer className="bg-secondary py-8 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-muted-foreground">
-          <p>© {new Date().getFullYear()} Alex Morgan. All rights reserved.</p>
-          <p className="mt-2 text-sm">UI/UX Designer</p>
+          <p>© {new Date().getFullYear()} Sanika Kulkarni. All rights reserved.</p>
+          <p className="mt-2 text-sm">Frontend Developer</p>
         </div>
       </footer>
     </div>
