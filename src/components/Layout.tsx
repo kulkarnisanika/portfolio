@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
@@ -67,25 +66,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               Alex Morgan
             </a>
             
-            <div className="flex items-center">
-              {/* Theme Toggle */}
-              <div className="mr-4">
-                <ThemeToggle />
-              </div>
-              
-              {/* Mobile menu button */}
-              <div className="md:hidden">
-                <Button 
-                  variant="ghost" 
-                  size="icon" 
-                  onClick={() => setIsMenuOpen(!isMenuOpen)}
-                  aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-                >
-                  {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-                </Button>
-              </div>
-            </div>
-            
             {/* Desktop navigation */}
             <nav className="hidden md:flex space-x-8">
               {navLinks.map((link) => (
@@ -100,6 +80,23 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 </button>
               ))}
             </nav>
+            
+            <div className="flex items-center">
+              {/* Theme Toggle */}
+              <ThemeToggle />
+              
+              {/* Mobile menu button */}
+              <div className="md:hidden ml-4">
+                <Button 
+                  variant="ghost" 
+                  size="icon" 
+                  onClick={() => setIsMenuOpen(!isMenuOpen)}
+                  aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+                >
+                  {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+                </Button>
+              </div>
+            </div>
           </div>
         </div>
         
