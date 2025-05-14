@@ -31,7 +31,7 @@ const Index = () => {
           <div className="flex flex-col items-center">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-accent/20 shadow-xl">
               <img
-                src="public/sanika-kulkarni-head.png"
+                src="/sanika-kulkarni-head.png"
                 alt="Sanika Kulkarni"
                 className="w-full h-full object-cover"
               />
@@ -124,7 +124,7 @@ const Index = () => {
           <ProjectCard
             title="CineGPT - AI based Movie Recommendation App"
             description="An AI-powered movie app that leverages GPT-based intelligence to recommend, search, and summarize movies with an engaging, conversational interface."
-            imageUrl="public/cine-gpt-personal.png"
+            imageUrl="/cine-gpt-personal.png"
             demoUrl="https://cine-gpt-app.web.app/"
             sourceCodeUrl="https://github.com/kulkarnisanika/cine-gpt"
             showDemoUrl={true}
@@ -135,7 +135,7 @@ const Index = () => {
           <ProjectCard
             title="Telecom App - Customer Engagement Center"
             description="A centralized platform that enables businesses to manage and enhance customer interactions across multiple channels."
-            imageUrl="public/customer-engagement-amdocs.png"
+            imageUrl="/customer-engagement-amdocs.png"
             demoUrl="#"
             sourceCodeUrl="#"
             showDemoUrl={false}
@@ -146,7 +146,7 @@ const Index = () => {
           <ProjectCard
             title="Browser Extension - Auto tab Organizer"
             description="A lightweight tool that groups and ungroups tabs automatically based on domain names, improving browser tab organization and productivity."
-            imageUrl="public/auto-tab-organizer.png"
+            imageUrl="/auto-tab-organizer.png"
             demoUrl="https://drive.google.com/file/d/1GDzwtnHVHWq60TdPiKi0hTA2JRSUZx-L/view"
             sourceCodeUrl="https://github.com/kulkarnisanika/auto-tab-organizer"
             showDemoUrl={true}
@@ -275,7 +275,7 @@ const Index = () => {
             <Card className="overflow-hidden md:ml-24">
               <CardContent className="pt-5">
                 <img
-                  src="public/3.png"
+                  src="/3.png"
                   alt="Sanika Kulkarni working"
                   className="w-full h-auto object-contain aspect-[4/3] "
                 />
