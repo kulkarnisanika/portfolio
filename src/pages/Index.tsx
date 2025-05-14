@@ -97,7 +97,7 @@ const Index = () => {
               <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-accent"></div>
               <h3 className="text-xl font-bold">Project Intern</h3>
               <h4 className="text-accent mb-2">Gadre Infotech Pvt. Ltd.</h4>
-              <p className="text-sm text-muted-foreground mb-2">Jun 2022 - Aug 2022</p>
+              <p className="text-sm text-muted-foreground mb-2">Jun 2020 - Sept 2020</p>
               <ul className="list-disc list-inside space-y-2 text-sm md:text-base">
                 <li>Developed a responsive school app interface, improving access for 200+ students and staff</li>
                 <li>Applied HTML5/CSS3 best practices to ensure cross-browser compatibility</li>
