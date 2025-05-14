@@ -47,7 +47,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     { id: 'home', label: 'Home' },
     { id: 'experience', label: 'Experience' },
     { id: 'projects', label: 'Projects' },
-    { id: 'tools', label: 'Tools' },
+    { id: 'skills', label: 'Skills' },
     { id: 'about', label: 'About' },
     { id: 'contact', label: 'Contact' }
   ];
