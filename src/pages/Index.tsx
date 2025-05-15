@@ -349,7 +349,7 @@ const Index = () => {
                   <Instagram className="w-5 h-5" />
                   <span className="font-semibold">Instagram</span>
                 </div>
-                <a href="https://instagram.com" className="text-gray-300 hover:text-teal-400 transition-colors">
+                <a href="https://instagram.com/kulkarnisanika2" className="text-gray-300 hover:text-teal-400 transition-colors">
                   @kulkarnisanika2
                 </a>
               </div>
