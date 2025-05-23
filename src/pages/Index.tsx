@@ -53,7 +53,7 @@ const Index = () => {
             Hi, I'm <span className="text-gradient">Sanika Kulkarni</span>
           </h1>
           <p className="text-xl md:text-2xl mb-6 text-muted-foreground">
-            Frontend Developer with 2.9 years of experience - building the bridge between imagination and interaction!
+            Frontend Developer with 3 years of experience - building the bridge between imagination and interaction!
           </p>
           <Button
             size="lg"
@@ -262,7 +262,7 @@ const Index = () => {
             <p className="mb-6">
               When I’m not coding, you’ll likely find me exploring new tech trends, refining my UI skills, or recharging with a good book and a strong cup of coffee.
             </p>
-            <a href="https://drive.google.com/file/d/1OwC8L9yR2pxIq91XdK0y2EVeziICQp0t/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1OwC8L9yR2pxIq91XdK0y2EVeziICQp0t/view?usp=sharing" target="_blank">
               <Button variant="outline" className="flex gap-2">
                 <Download size={16} /> Download Resume
               </Button>
@@ -327,7 +327,7 @@ const Index = () => {
                   <Github className="w-5 h-5" />
                   <span className="font-semibold">GitHub</span>
                 </div>
-                <a href="https://github.com/kulkarnisanika/" className="text-gray-300 hover:text-teal-400 transition-colors">
+                <a href="https://github.com/kulkarnisanika/" target="_blank" className="text-gray-300 hover:text-teal-400 transition-colors">
                   github.com/kulkarnisanika
                 </a>
               </div>
@@ -338,7 +338,7 @@ const Index = () => {
                   <Linkedin className="w-5 h-5" />
                   <span className="font-semibold">LinkedIn</span>
                 </div>
-                <a href="https://www.linkedin.com/in/sanika-kulkarni-a5793b209/" className="text-gray-300 hover:text-teal-400 transition-colors">
+                <a href="https://www.linkedin.com/in/sanika-kulkarni-a5793b209/" target="_blank"  className="text-gray-300 hover:text-teal-400 transition-colors">
                   linkedin.com/in/sanika-kulkarni
                 </a>
               </div>
@@ -349,7 +349,7 @@ const Index = () => {
                   <Instagram className="w-5 h-5" />
                   <span className="font-semibold">Instagram</span>
                 </div>
-                <a href="https://instagram.com/kulkarnisanika2" className="text-gray-300 hover:text-teal-400 transition-colors">
+                <a href="https://instagram.com/kulkarnisanika2" target="_blank" className="text-gray-300 hover:text-teal-400 transition-colors">
                   @kulkarnisanika2
                 </a>
               </div>
@@ -408,7 +408,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, imageUrl,
 
             {
               showSourceCodeUrl && (<Button size="sm" variant="outline" className="bg-white/20 backdrop-blur-sm border-white/30 text-white hover:bg-white/30" asChild>
-                <a href={sourceCodeUrl}>
+                <a href={sourceCodeUrl} target="_blank">
                   <FileText className="w-4 h-4 mr-1" /> Source code
                 </a>
               </Button>)
